@@ -17,7 +17,7 @@ import {
   Collapse,
 } from "reactstrap";
 import Image from "next/image";
-import logo from "../../../assets/images/logos/green-logo.png";
+// import logo from "../../../assets/images/logos/green-logo.png";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const HeaderComponent = () => {
         <Container>
           <Navbar className="navbar-expand-lg h1-nav">
             <NavbarBrand href="#">
-              <Image src={logo} alt="wrapkit" />
+              Logo
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu"></span>
