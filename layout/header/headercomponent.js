@@ -17,7 +17,7 @@ import {
   Collapse,
 } from "reactstrap";
 import Image from "next/image";
-import logo from "../../../assets/images/logos/white-logo.png";
+import logo from "../../../assets/images/logos/green-logo.png";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
