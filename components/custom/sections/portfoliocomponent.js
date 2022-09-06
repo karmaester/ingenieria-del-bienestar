@@ -13,7 +13,7 @@ import img8 from "../../../assets/images/portfolio/56.png";
 import img9 from "../../../assets/images/portfolio/60.png";
 import img10 from "../../../assets/images/portfolio/61.png";
 import img11 from "../../../assets/images/portfolio/welcome_01.jpg";
-import img12 from "../../../assets/images/portfolio/welcome.jpg";
+import img12 from "../../../assets/images/portfolio/welcome_01.jpg";
 import img13 from "../../../assets/images/portfolio/woman-holding-prescription.jpg";
 
 const PortfolioComponent = () => {
