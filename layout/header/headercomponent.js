@@ -17,7 +17,7 @@ import {
   Collapse,
 } from "reactstrap";
 import Image from "next/image";
-// import logo from "../../../assets/images/logos/green-logo.png";
+import logo from "./images/green-logo.png";
 
 const HeaderComponent = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const HeaderComponent = () => {
         <Container>
           <Navbar className="navbar-expand-lg h1-nav">
             <NavbarBrand href="#">
-              Logo
+              <Image width={100} height={60} src={logo} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu"></span>
@@ -37,17 +37,14 @@ const HeaderComponent = () => {
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active">
-                  <NavLink href="#">Home</NavLink>
+                  <NavLink href="#">Misión</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">About Me</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="#">Work</NavLink>
+                  <NavLink href="#">Galería</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav>
-                    Services <i className="fa fa-angle-down m-l-5"></i>
+                    Servicios <i className="fa fa-angle-down m-l-5"></i>
                   </DropdownToggle>
                   <DropdownMenu className="b-none animated fadeInUp">
                     <DropdownItem>Action</DropdownItem>
@@ -61,12 +58,7 @@ const HeaderComponent = () => {
                   </DropdownMenu>
                 </UncontrolledDropdown>
                 <NavItem>
-                  <NavLink href="#">Freebies</NavLink>
-                </NavItem>
-                <NavItem>
-                  <a className="btn btn-outline-info" href="#">
-                    Hire Me
-                  </a>
+                  <NavLink href="#">Blog</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

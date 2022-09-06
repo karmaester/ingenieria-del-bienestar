@@ -24,7 +24,7 @@ const Banner2 = () => {
             </a> */}
             <Link href="/#coming">
               <a className="btn btn-md m-t-30  btn-outline-danger ">
-                Agendar atención
+                Agendar cita
               </a>
             </Link>
           </Col>

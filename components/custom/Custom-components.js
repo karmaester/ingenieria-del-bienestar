@@ -26,7 +26,7 @@ const CustomComponents = () => {
       <ContactComponent />
       {/* <FeatureComponent /> */}
       <PortfolioComponent />
-      <FormBannerComponent />
+      {/* <FormBannerComponent /> */}
       {/* <PricingComponent /> */}
       {/* <TeamComponent /> */}
       <BlogComponent />
