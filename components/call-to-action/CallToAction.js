@@ -10,11 +10,11 @@ const CallToAction = () => {
             <div className="d-flex align-items-center">
               <div>
                 <h2 className="title text-white font-weight-bold">
-                  Llamado a la acción
+                  Reserve su cita
                 </h2>
-                <h6 className="subtitle font-light text-white">
+                {/* <h6 className="subtitle font-light text-white">
                   Puede ir aquí otra invitación para contactarse
-                </h6>
+                </h6> */}
                 <Button
                   href="/#coming"
                   className="btn btn-dark m-r-20 btn-md m-t-30"

@@ -78,7 +78,7 @@ const ContactComponent = () => {
                   <div className="detail-box p-40 bg-info">
                     <h2 className="text-white">Datos de contacto</h2>
                     <p className="text-white m-t-30 op-8">
-                      +56 9 2189  1335
+                      +56 9 6807 7891
                       <br /> drjuliorojasortega@gmail.com
                     </p>
                     <p className="text-white op-8">

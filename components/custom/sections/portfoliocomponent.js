@@ -51,7 +51,23 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img1}
+                    src={img5}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">Ecografía obstétrica - Doppler obstétrico</h5>
+                  <p className="m-b-0 font-14">Ecografía temprana del embarazo , screening semana 11-13 (Doppler) , ecografía anatómica fetal semana 22-24 con Doppler de
+                    arterias uterinas , ecografías volumétricas (3D) , cervicometría</p>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img6}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -68,7 +84,7 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img2}
+                    src={img10}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -83,7 +99,7 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img3}
+                    src={img2}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -113,7 +129,7 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img5}
+                    src={img8}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -189,7 +205,7 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img10}
+                    src={img11}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -213,22 +229,6 @@ const PortfolioComponent = () => {
                   <h5 className="font-medium m-b-0">Cirugía ginecólogica</h5>
                   <p className="m-b-0 font-14">Histerectomía , cirugía de prolapsos , esterilización quirúrgica, laparotomía. Ninfoplastia , rejuvenecimiento vaginal, vaporización
                     de verrugas</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img12}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Ecografía Obstétrica</h5>
-                  <p className="m-b-0 font-14">Ecografía temprana del embarazo , screening semana 11-13 (Doppler) , ecografía anatómica fetal semana 22-24 con Doppler de
-                    arterias uterinas , ecografías volumétricas (3D) , cervicometría</p>
                 </CardBody>
               </Card>
             </Col>

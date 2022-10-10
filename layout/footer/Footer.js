@@ -15,7 +15,7 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Teléfono</h5>
             <p>
-              +56 9 2189  1335
+              +56 9 6807 7891
             </p>
           </Col>
           <Col lg="3" md="6" className="m-b-30">
@@ -35,11 +35,11 @@ const Footer = () => {
                   <i className="fa fa-facebook"></i>
                 </a>
               </Link>
-              <Link href="#">
+              {/* <Link href="#">
                 <a className="link">
                   <i className="fa fa-youtube-play"></i>
                 </a>
-              </Link>
+              </Link> */}
               <Link href="#">
                 <a className="link">
                   <i className="fa fa-instagram"></i>

@@ -39,7 +39,7 @@ const BlogComponent = () => {
                 </a>
               </Card>
             </Col>
-            <Col lg="4" md="6">
+            {/* <Col lg="4" md="6">
               <Card>
                 <a href="#">
                   <Image
@@ -82,7 +82,7 @@ const BlogComponent = () => {
                   Leer <i className="ti-arrow-right"></i>
                 </a>
               </Card>
-            </Col>
+            </Col> */}
           </Row>
         </Container>
       </div>
