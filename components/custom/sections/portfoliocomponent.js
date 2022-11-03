@@ -16,6 +16,8 @@ import img11 from "../../../assets/images/portfolio/n9.png";
 import img12 from "../../../assets/images/portfolio/n10.png";
 import img13 from "../../../assets/images/portfolio/woman-holding-prescription.jpg";
 import img14 from "../../../assets/images/portfolio/55.png";
+import img15 from "../../../assets/images/portfolio/56.png";
+import img16 from "../../../assets/images/portfolio/n3.png";
 
 const PortfolioComponent = () => {
   return (
@@ -100,7 +102,7 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img2}
+                    src={img16}
                     alt="wrappixel kit"
                   />
                 </a>
@@ -130,7 +132,7 @@ const PortfolioComponent = () => {
                 <a href="#" className="img-ho">
                   <Image
                     className="card-img-top"
-                    src={img8}
+                    src={img15}
                     alt="wrappixel kit"
                   />
                 </a>
