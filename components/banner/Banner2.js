@@ -22,7 +22,7 @@ const Banner2 = () => {
             >
               Download Free
             </a> */}
-            <Link href="/#coming">
+            <Link href="https://wa.link/wstbjf">
               <a className="btn btn-md m-t-30  btn-outline-danger ">
                 Agendar cita
               </a>

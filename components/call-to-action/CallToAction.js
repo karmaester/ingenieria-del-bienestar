@@ -16,7 +16,7 @@ const CallToAction = () => {
                   Puede ir aquí otra invitación para contactarse
                 </h6> */}
                 <Button
-                  href="/#coming"
+                  href="https://wa.link/wstbjf"
                   className="btn btn-dark m-r-20 btn-md m-t-30"
                 >
                   Haz click aquí
