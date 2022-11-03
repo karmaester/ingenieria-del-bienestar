@@ -40,7 +40,7 @@ const Footer = () => {
                   <i className="fa fa-youtube-play"></i>
                 </a>
               </Link> */}
-              <Link href="#">
+              <Link href="https://www.instagram.com/drjulioarojas/">
                 <a className="link">
                   <i className="fa fa-instagram"></i>
                 </a>

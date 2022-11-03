@@ -19,7 +19,7 @@ import img13 from "../../../assets/images/portfolio/woman-holding-prescription.j
 const PortfolioComponent = () => {
   return (
     <div>
-      <div className="spacer bg-light">
+      <div className="spacer bg-light" id="mission">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">
@@ -38,7 +38,7 @@ const PortfolioComponent = () => {
           </Row>
         </Container>
       </div>
-      <div className="spacer">
+      <div className="spacer" id="services">
         <Container>
           <Row className="justify-content-center">
             <Col md="7" className="text-center">

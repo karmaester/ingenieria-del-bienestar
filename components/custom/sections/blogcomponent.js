@@ -8,7 +8,7 @@ import img3 from "../../../assets/images/blog/blog-home/19.png";
 
 const BlogComponent = () => {
   return (
-    <div>
+    <div id="blog">
       <div className="blog-home2 spacer">
         <Container>
           <Row className="justify-content-center">

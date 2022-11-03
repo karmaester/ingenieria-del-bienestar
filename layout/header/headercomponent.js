@@ -37,28 +37,16 @@ const HeaderComponent = () => {
             <Collapse isOpen={isOpen} navbar id="header1">
               <Nav navbar className="ml-auto mt-2 mt-lg-0">
                 <NavItem className="active">
-                  <NavLink href="#">Misión</NavLink>
+                  <NavLink href="/#mission">Misión</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Galería</NavLink>
+                  <NavLink href="/#gallery">Galería</NavLink>
                 </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav>
-                    Servicios <i className="fa fa-angle-down m-l-5"></i>
-                  </DropdownToggle>
-                  <DropdownMenu className="b-none animated fadeInUp">
-                    <DropdownItem>Action</DropdownItem>
-                    <DropdownItem>Another action</DropdownItem>
-                    <DropdownItem>Something else here</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>Something else here</DropdownItem>
-                    <DropdownItem>Separated link</DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>One more separated link</DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
                 <NavItem>
-                  <NavLink href="#">Blog</NavLink>
+                  <NavLink href="/#services">Servicios</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/#blog">Blog</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>

@@ -16,6 +16,7 @@ import BlogComponent from "./sections/blogcomponent";
 import C2aComponent from "./sections/c2acomponent";
 import ContactComponent from "./sections/contactcomponent";
 import CallToAction from "../../components/call-to-action/CallToAction";
+import Gallery from "../Gallery/component/Gallery";
 
 const CustomComponents = () => {
   return (
@@ -26,6 +27,7 @@ const CustomComponents = () => {
       <ContactComponent />
       {/* <FeatureComponent /> */}
       <PortfolioComponent />
+      <Gallery />
       {/* <FormBannerComponent /> */}
       {/* <PricingComponent /> */}
       {/* <TeamComponent /> */}
