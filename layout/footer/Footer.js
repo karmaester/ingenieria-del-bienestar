@@ -30,7 +30,7 @@ const Footer = () => {
           <Col lg="3" md="6">
             <h5 className="m-b-20">Social</h5>
             <div className="round-social light">
-              <Link href="#">
+              <Link href="https://www.facebook.com/ginecologojuliorojas">
                 <a className="link">
                   <i className="fa fa-facebook"></i>
                 </a>
