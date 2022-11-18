@@ -3,25 +3,18 @@ import styles from '../styles/Gallery.module.scss'
 import React from 'react'
 import { Row, Col, Container } from "reactstrap";
 import GalleryItem from '../../GalleryItem/component/GalleryItem'
-import img10 from "../../../assets/images/portfolio/61.png";
+import vid1 from '../videos/vid1.gif'
+import vid2 from '../videos/vid2.gif'
 
 
 const images = [
     {
-        alt: 'first',
-        src: img10
+        alt: 'ecografia',
+        src: vid1
     },
     {
-        alt: 'second',
-        src: img10
-    },
-    {
-        alt: 'third',
-        src: img10
-    },
-    {
-        alt: 'fourth',
-        src: img10
+        alt: 'ecografia',
+        src: vid2
     }
 ]
 

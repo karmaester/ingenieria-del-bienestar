@@ -2,9 +2,7 @@
 import React from "react";
 import { Row, Col, Container, Card } from "reactstrap";
 import Image from "next/image";
-import img1 from "../../../assets/images/blog/blog-home/1.png";
-import img2 from "../../../assets/images/blog/blog-home/7.png";
-import img3 from "../../../assets/images/blog/blog-home/19.png";
+import img1 from "../../../assets/images/blog/blog-home/01.jpg";
 
 const BlogComponent = () => {
   return (
@@ -28,11 +26,10 @@ const BlogComponent = () => {
                 </a>
                 <h5 className="font-medium m-t-30">
                   <a href="#" className="link">
-                    Artículo Primero
-                  </a>
+                    Quistes en los ovarios                   </a>
                 </h5>
                 <p className="m-t-20">
-                  Idea principal del artículo...
+                  Lo bueno, lo malo y lo feo
                 </p>
                 <a href="#" className="linking text-themecolor m-t-10">
                   Leer <i className="ti-arrow-right"></i>

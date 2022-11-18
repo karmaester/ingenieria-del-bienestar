@@ -1,6 +1,7 @@
 /* eslint-disable */
 import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
+import OtherServices from "./otherServices";
 import Image from "next/image";
 import img1 from "../../../assets/images/portfolio/55.png";
 import img2 from "../../../assets/images/portfolio/7.png";
@@ -21,269 +22,128 @@ import img16 from "../../../assets/images/portfolio/n3.png";
 
 const PortfolioComponent = () => {
   return (
-    <div>
-      <div className="spacer bg-light" id="mission">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h1 className="title font-bold">Misión</h1>
-              <h6 className="subtitle">
-                ME APROXIMO A LA ESPECIALIDAD DESDE UN ENFOQUE HUMANO INTEGRAL Y PREVENTIVO CON HERRAMIENTAS DE LA MEDICINA DE
-                LOS ESTILOS DE VIDA Y MEDICINA DE LA LONGEVIDAD, SIN ABANDONAR LAS RAÍCES DE LA GINECOLÓGICA CLÁSICA Y EL SUSTENTO
-                DE LA EVIDENCIA.
-                <br />
-                <br />
-                A LO LARGO DE MI PRACTICA HE PROCURADO REALIZAR CURSOS DE ACTUALIZACIÓN CON ESPECIAL INTERÉS EN LOS TEMA DE:
-                ULTRASONOGRAFÍA GINECOLÓGICA Y OBSTÉTRICA , CIRUGÍA DE PISO PÉLVICO , MENOPAUSIA, GINECOESTÉTICA Y MEDICINA DEL
-                ENVEJECIMIENTO Y LONGEVIDAD.
-              </h6>
-            </Col>
-          </Row>
-        </Container>
+    <>
+      <div>
+        <div className="spacer bg-light" id="mission">
+          <Container>
+            <Row className="justify-content-center">
+              <Col md="7" className="text-center">
+                <h1 className="title font-bold">Misión</h1>
+                <h6 className="subtitle">
+                  Prestar servicio  de salud femenina con un enfoque humano, integralista  y preventivo, tomando herramientas  de la medicina de los estilos de vida y de la medicina de la longevidad, sin abandonar las raíces de la ginecología clásica y con el sustento de la mejor evidencia .
+                </h6>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="spacer" id="services">
+          <Container>
+            <Row className="justify-content-center">
+              <Col md="7" className="text-center">
+                <h2 className="title">Servicios</h2>
+              </Col>
+            </Row>
+            <Row className="m-t-40">
+              <Col md="4">
+                <Card className="card-shadow">
+                  <a href="#" className="img-ho">
+                    <Image
+                      className="card-img-top"
+                      src={img5}
+                      alt="wrappixel kit"
+                    />
+                  </a>
+                  <CardBody>
+                    <h5 className="font-medium m-b-0">Ecografía obstétrica - Doppler obstétrico</h5>
+                    <p className="m-b-0 font-14">Ecografía temprana del embarazo , screening semana 11-13 (Doppler) , ecografía anatómica fetal semana 22-24 con Doppler de
+                      arterias uterinas , ecografías volumétricas (3D) , cervicometría</p>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-shadow">
+                  <a href="#" className="img-ho">
+                    <Image
+                      className="card-img-top"
+                      src={img3}
+                      alt="wrappixel kit"
+                    />
+                  </a>
+                  <CardBody>
+                    <h5 className="font-medium m-b-0">
+                      Consulta ginecológica
+                    </h5>
+                    <p className="m-b-0 font-14">Examen físico general. Examen ginecológico. Toma de citología cervicouterina (PAP). Solicitud de exámenes pertinentes. Prescripción de acuerdo a necesidades específicas.</p>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-shadow">
+                  <a href="#" className="img-ho">
+                    <Image
+                      className="card-img-top"
+                      src={img10}
+                      alt="wrappixel kit"
+                    />
+                  </a>
+                  <CardBody>
+                    <h5 className="font-medium m-b-0">Consulta de control prenatal</h5>
+                    <p className="m-b-0 font-14">Control rutinario de embarazo. Exámenes de laboratorio. Recomendaciones de acuerdo a las necesidades en cada trimestre. Ecografia básica mensual en cada control. Detección de embarazos de alto riesgo. Recomendaciones para el parto.</p>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-shadow">
+                  <a href="#" className="img-ho">
+                    <Image
+                      className="card-img-top"
+                      src={img16}
+                      alt="wrappixel kit"
+                    />
+                  </a>
+                  <CardBody>
+                    <h5 className="font-medium m-b-0">Climaterio y menopausia</h5>
+                    <p className="m-b-0 font-14">Atención de los síntomas relacionados con el climaterio. Recomendaciones de estilo de vida.  Pesquisa y prevención de enfermedades prevalentes. Terapia de reemplazo hormonal.</p>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-shadow">
+                  <a href="#" className="img-ho">
+                    <Image
+                      className="card-img-top"
+                      src={img11}
+                      alt="wrappixel kit"
+                    />
+                  </a>
+                  <CardBody>
+                    <h5 className="font-medium m-b-0">Cirugía ginecólogica</h5>
+                    <p className="m-b-0 font-14">Histerectomía , cirugía de prolapsos , esterilización quirúrgica, laparotomía. Ninfoplastia , rejuvenecimiento vaginal, vaporización
+                      de verrugas</p>
+                  </CardBody>
+                </Card>
+              </Col>
+              <Col md="4">
+                <Card className="card-shadow">
+                  <a href="#" className="img-ho">
+                    <Image
+                      className="card-img-top"
+                      src={img12}
+                      alt="wrappixel kit"
+                    />
+                  </a>
+                  <CardBody>
+                    <h5 className="font-medium m-b-0">Ecografía Ginecológica,</h5>
+                    <p className="m-b-0 font-14">Ecografia Transvaginal y pélvica trans abdominal.</p>
+                  </CardBody>
+                </Card>
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
-      <div className="spacer" id="services">
-        <Container>
-          <Row className="justify-content-center">
-            <Col md="7" className="text-center">
-              <h2 className="title">Servicios</h2>
-            </Col>
-          </Row>
-          <Row className="m-t-40">
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img5}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Ecografía obstétrica - Doppler obstétrico</h5>
-                  <p className="m-b-0 font-14">Ecografía temprana del embarazo , screening semana 11-13 (Doppler) , ecografía anatómica fetal semana 22-24 con Doppler de
-                    arterias uterinas , ecografías volumétricas (3D) , cervicometría</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img3}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">
-                    Consulta ginecológica
-                  </h5>
-                  <p className="m-b-0 font-14">Digital Marketing</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img10}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Consulta de control prenatal</h5>
-                  <p className="m-b-0 font-14">Search Engine</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img16}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Climaterio y menopausia</h5>
-                  <p className="m-b-0 font-14">Atención integral a la mujer en todas sus etapas</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img4}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Fertilidad</h5>
-                  <p className="m-b-0 font-14">Estudio de pareja infértil de baja complejidad</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img15}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Trastornos del ciclo menstrual</h5>
-                  <p className="m-b-0 font-14">Wll Mockup</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img6}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Síndrome de ovario poliquístico</h5>
-                  <p className="m-b-0 font-14">Book Covers</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img7}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Endometriosis</h5>
-                  <p className="m-b-0 font-14">Book Covers</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img8}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Miomas uterinos</h5>
-                  <p className="m-b-0 font-14">Book Covers</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img9}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Pesquisa de enfermedades de transmisión sexual</h5>
-                  <p className="m-b-0 font-14">Clamidia , gonorrea, Virus del apiloma humano, sifilis, herpes, ureaplasma , micoplasma, hepatitis B,
-                    VIH</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img13}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Asesoría anticonceptiva de acuerdo a necesidades especiales</h5>
-                  <p className="m-b-0 font-14">Anticoncepción oral , Intramuscular , parches Dispositivos subdérmicos (implanon)
-                    dispositivos intrauterinos (Mirena) . Anticoncepción de emergencia</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img11}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Cirugía ginecólogica</h5>
-                  <p className="m-b-0 font-14">Histerectomía , cirugía de prolapsos , esterilización quirúrgica, laparotomía. Ninfoplastia , rejuvenecimiento vaginal, vaporización
-                    de verrugas</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img12}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Ecografía Ginecológica,</h5>
-                  <p className="m-b-0 font-14">Histerosonografia</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img1}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Toma de pap</h5>
-                  <p className="m-b-0 font-14">Citología cervical uterina</p>
-                </CardBody>
-              </Card>
-            </Col>
-            <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img14}
-                    alt="wrappixel kit"
-                  />
-                </a>
-                <CardBody>
-                  <h5 className="font-medium m-b-0">Telemedicina</h5>
-                  <p className="m-b-0 font-14">2das opiniones</p>
-                </CardBody>
-              </Card>
-            </Col>
-          </Row>
-        </Container>
-      </div>
-    </div>
+      <OtherServices />
+    </>
   );
 };
 
