@@ -44,11 +44,9 @@ const ContactComponent = () => {
             <Col md="7" className="text-center">
               <h1 className="title font-bold">Acerca de mí</h1>
               <h6 className="subtitle">
-                Médico cirujano de la Universidad Centro Occidental Lisandro Alvarado. Residencia asistencial en Ginecología y Obstetricia  Hospital Patrocinio Peñuela Ruiz . Especialista en Ginecología y Obstetricia , Ilustre universidad de los Andes . Venezuela .
-                <br />
-                <br />
+                <p>Médico cirujano de la Universidad Centro Occidental Lisandro Alvarado. Residencia asistencial en Ginecología y Obstetricia  Hospital Patrocinio Peñuela Ruiz. Especialista en Ginecología y Obstetricia , Ilustre universidad de los Andes. Venezuela.</p>
+                <p>Maestría en Medicina de antienvejecimiento y longevidad .Instituto de formación continua Unversitat de Barcelona.</p>
                 He desempeñado mi especialidad desde hace 22 años tanto en ámbito público como privado.
-
               </h6>
             </Col>
           </Row>

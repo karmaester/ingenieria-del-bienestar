@@ -11,6 +11,7 @@ import img13 from "../../../assets/images/portfolio/woman-holding-prescription.j
 import img15 from "../../../assets/images/portfolio/56.png";
 import img16 from "../../../assets/images/portfolio/n11.jpg";
 import img17 from "../../../assets/images/portfolio/n12.jpg";
+import img18 from "../../../assets/images/portfolio/n14.jpg";
 
 const OtherServices = () => {
   return (
@@ -33,7 +34,7 @@ const OtherServices = () => {
                   />
                 </a>
                 <CardBody>
-                  <h5 className="font-medium m-b-0">Fertilidad</h5>
+                  <h5 className="font-medium m-b-0">Fertilidad de baja complejidad</h5>
                 </CardBody>
               </Card>
             </Col>
@@ -146,6 +147,20 @@ const OtherServices = () => {
                 </a>
                 <CardBody>
                   <h5 className="font-medium m-b-0">Telemedicina</h5>
+                </CardBody>
+              </Card>
+            </Col>
+            <Col md="4">
+              <Card className="card-shadow">
+                <a href="#" className="img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img18}
+                    alt="wrappixel kit"
+                  />
+                </a>
+                <CardBody>
+                  <h5 className="font-medium m-b-0">Atención Kinesiológica del embarazo</h5>
                 </CardBody>
               </Card>
             </Col>

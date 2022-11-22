@@ -3,21 +3,11 @@ import React from "react";
 import { Row, Col, Container, Card, CardBody } from "reactstrap";
 import OtherServices from "./otherServices";
 import Image from "next/image";
-import img1 from "../../../assets/images/portfolio/55.png";
-import img2 from "../../../assets/images/portfolio/7.png";
 import img3 from "../../../assets/images/portfolio/n1.png";
-import img4 from "../../../assets/images/portfolio/n4.png";
-import img5 from "../../../assets/images/portfolio/39.png";
-import img6 from "../../../assets/images/portfolio/n5.png";
-import img7 from "../../../assets/images/portfolio/n6.png";
-import img8 from "../../../assets/images/portfolio/n7.png";
-import img9 from "../../../assets/images/portfolio/n8.png";
+import img5 from "../../../assets/images/portfolio/n13.jpg";
 import img10 from "../../../assets/images/portfolio/n2.png";
 import img11 from "../../../assets/images/portfolio/n9.png";
 import img12 from "../../../assets/images/portfolio/n10.png";
-import img13 from "../../../assets/images/portfolio/woman-holding-prescription.jpg";
-import img14 from "../../../assets/images/portfolio/55.png";
-import img15 from "../../../assets/images/portfolio/56.png";
 import img16 from "../../../assets/images/portfolio/n3.png";
 
 const PortfolioComponent = () => {
@@ -49,7 +39,7 @@ const PortfolioComponent = () => {
                   <a href="#" className="img-ho">
                     <Image
                       className="card-img-top"
-                      src={img5}
+                      src={img12}
                       alt="wrappixel kit"
                     />
                   </a>
@@ -128,7 +118,7 @@ const PortfolioComponent = () => {
                   <a href="#" className="img-ho">
                     <Image
                       className="card-img-top"
-                      src={img12}
+                      src={img5}
                       alt="wrappixel kit"
                     />
                   </a>

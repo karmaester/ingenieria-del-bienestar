@@ -8,6 +8,7 @@ File: scss
 This is the font import from the google api 
 *******************/
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 /******************* 
 Global Styles 
 *******************/
@@ -125,6 +126,10 @@ h6 {
 
 .display-7 {
   font-size: 26px;
+}
+
+.dr-name {
+  font-family: $drnamefont;
 }
 
 .box {

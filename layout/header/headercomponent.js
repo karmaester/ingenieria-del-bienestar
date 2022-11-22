@@ -29,7 +29,7 @@ const HeaderComponent = () => {
         <Container>
           <Navbar className="navbar-expand-lg h1-nav">
             <NavbarBrand href="#">
-              <Image width={100} height={60} src={logo} />
+              <Image width={80} height={60} src={logo} />
             </NavbarBrand>
             <NavbarToggler onClick={toggle}>
               <span className="ti-menu"></span>

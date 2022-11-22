@@ -10,7 +10,7 @@ const Banner2 = () => {
       <Container>
         <Row className="">
           <Col lg="6" md="6" className="align-self-center">
-            <h1 className="title">
+            <h1 className="title dr-name">
               Dr. Julio Rojas
             </h1>
             <h4 className="subtitle font-light">
