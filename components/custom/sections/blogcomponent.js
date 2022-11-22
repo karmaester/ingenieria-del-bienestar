@@ -20,7 +20,7 @@ const BlogComponent = () => {
           <Row className="m-t-40 justify-content-center">
             <Col lg="4" md="6">
               <Card>
-                <a href="#">
+                <a onClick={() => setToggle(true)}>
                   <Image
                     className="card-img-top"
                     src={img1}
@@ -28,7 +28,7 @@ const BlogComponent = () => {
                   />
                 </a>
                 <h5 className="font-medium m-t-30">
-                  <a href="#" className="link">
+                  <a onClick={() => setToggle(true)} className="link">
                     Quistes en los ovarios                   </a>
                 </h5>
                 <p className="m-t-20">
