@@ -20,7 +20,7 @@ const PortfolioComponent = () => {
               <Col md="7" className="text-center">
                 <h1 className="title font-bold">Misión</h1>
                 <h6 className="subtitle">
-                  Prestar servicio  de salud femenina con un enfoque humano, integralista  y preventivo, tomando herramientas  de la medicina de los estilos de vida y de la medicina de la longevidad, sin abandonar las raíces de la ginecología clásica y con el sustento de la mejor evidencia .
+                  Prestar servicio  de salud femenina con un enfoque humano, integralista  y preventivo, tomando herramientas  de la medicina de los estilos de vida y de la medicina de la longevidad, sin abandonar las raíces de la ginecología clásica y con el sustento de la mejor evidencia.
                 </h6>
               </Col>
             </Row>
@@ -46,7 +46,7 @@ const PortfolioComponent = () => {
                   <CardBody>
                     <h5 className="font-medium m-b-0">Ecografía obstétrica - Doppler obstétrico</h5>
                     <p className="m-b-0 font-14">Ecografía temprana del embarazo , screening semana 11-13 (Doppler) , ecografía anatómica fetal semana 22-24 con Doppler de
-                      arterias uterinas , ecografías volumétricas (3D) , cervicometría</p>
+                      arterias uterinas , ecografías volumétricas (3D) , cervicometría.</p>
                   </CardBody>
                 </Card>
               </Col>
@@ -109,7 +109,7 @@ const PortfolioComponent = () => {
                   <CardBody>
                     <h5 className="font-medium m-b-0">Cirugía ginecólogica</h5>
                     <p className="m-b-0 font-14">Histerectomía , cirugía de prolapsos , esterilización quirúrgica, laparotomía. Ninfoplastia , rejuvenecimiento vaginal, vaporización
-                      de verrugas</p>
+                      de verrugas.</p>
                   </CardBody>
                 </Card>
               </Col>
@@ -123,7 +123,7 @@ const PortfolioComponent = () => {
                     />
                   </a>
                   <CardBody>
-                    <h5 className="font-medium m-b-0">Ecografía Ginecológica,</h5>
+                    <h5 className="font-medium m-b-0">Ecografía Ginecológica</h5>
                     <p className="m-b-0 font-14">Ecografia Transvaginal y pélvica trans abdominal.</p>
                   </CardBody>
                 </Card>
