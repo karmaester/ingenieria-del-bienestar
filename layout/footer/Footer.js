@@ -46,6 +46,13 @@ const Footer = () => {
                 </a>
               </Link>
             </div>
+            <Link href="https://www.instagram.com/ginecologopuertomontt/">
+              <a target="_blank" id="zl-url" href="https://www.doctoralia.cl/julio-antonio-rojas-ortega/ginecologo/puerto-montt" >
+                <button
+                  className="btn btn-md m-t-30 btn-danger-gradiant font-14"
+                >Doctoralia.cl
+                </button></a>
+            </Link>
           </Col>
         </Row>
         <div className="f4-bottom-bar">
