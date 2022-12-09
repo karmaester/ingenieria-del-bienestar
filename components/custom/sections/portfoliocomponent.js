@@ -35,14 +35,12 @@ const PortfolioComponent = () => {
             </Row>
             <Row className="m-t-40">
               <Col md="4">
-                <Card className="card-shadow">
-                  <a href="#" className="img-ho">
-                    <Image
-                      className="card-img-top"
-                      src={img12}
-                      alt="wrappixel kit"
-                    />
-                  </a>
+                <Card className="card-shadow img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img12}
+                    alt="wrappixel kit"
+                  />
                   <CardBody>
                     <h5 className="font-medium m-b-0">Ecografía obstétrica - Doppler obstétrico</h5>
                     <p className="m-b-0 font-14">Ecografía temprana del embarazo , screening semana 11-13 (Doppler) , ecografía anatómica fetal semana 22-24 con Doppler de
@@ -51,14 +49,12 @@ const PortfolioComponent = () => {
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-shadow">
-                  <a href="#" className="img-ho">
-                    <Image
-                      className="card-img-top"
-                      src={img3}
-                      alt="wrappixel kit"
-                    />
-                  </a>
+                <Card className="card-shadow img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img3}
+                    alt="wrappixel kit"
+                  />
                   <CardBody>
                     <h5 className="font-medium m-b-0">
                       Consulta ginecológica
@@ -68,14 +64,12 @@ const PortfolioComponent = () => {
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-shadow">
-                  <a href="#" className="img-ho">
-                    <Image
-                      className="card-img-top"
-                      src={img10}
-                      alt="wrappixel kit"
-                    />
-                  </a>
+                <Card className="card-shadow img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img10}
+                    alt="wrappixel kit"
+                  />
                   <CardBody>
                     <h5 className="font-medium m-b-0">Consulta de control prenatal</h5>
                     <p className="m-b-0 font-14">Control rutinario de embarazo. Exámenes de laboratorio. Recomendaciones de acuerdo a las necesidades en cada trimestre. Ecografia básica mensual en cada control. Detección de embarazos de alto riesgo. Recomendaciones para el parto.</p>
@@ -83,14 +77,12 @@ const PortfolioComponent = () => {
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-shadow">
-                  <a href="#" className="img-ho">
-                    <Image
-                      className="card-img-top"
-                      src={img16}
-                      alt="wrappixel kit"
-                    />
-                  </a>
+                <Card className="card-shadow img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img16}
+                    alt="wrappixel kit"
+                  />
                   <CardBody>
                     <h5 className="font-medium m-b-0">Climaterio y menopausia</h5>
                     <p className="m-b-0 font-14">Atención de los síntomas relacionados con el climaterio. Recomendaciones de estilo de vida.  Pesquisa y prevención de enfermedades prevalentes. Terapia de reemplazo hormonal.</p>
@@ -98,14 +90,12 @@ const PortfolioComponent = () => {
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-shadow">
-                  <a href="#" className="img-ho">
-                    <Image
-                      className="card-img-top"
-                      src={img11}
-                      alt="wrappixel kit"
-                    />
-                  </a>
+                <Card className="card-shadow img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img11}
+                    alt="wrappixel kit"
+                  />
                   <CardBody>
                     <h5 className="font-medium m-b-0">Cirugía ginecólogica</h5>
                     <p className="m-b-0 font-14">Histerectomía , cirugía de prolapsos , esterilización quirúrgica, laparotomía. Ninfoplastia , rejuvenecimiento vaginal, vaporización
@@ -114,14 +104,12 @@ const PortfolioComponent = () => {
                 </Card>
               </Col>
               <Col md="4">
-                <Card className="card-shadow">
-                  <a href="#" className="img-ho">
-                    <Image
-                      className="card-img-top"
-                      src={img5}
-                      alt="wrappixel kit"
-                    />
-                  </a>
+                <Card className="card-shadow img-ho">
+                  <Image
+                    className="card-img-top"
+                    src={img5}
+                    alt="wrappixel kit"
+                  />
                   <CardBody>
                     <h5 className="font-medium m-b-0">Ecografía Ginecológica</h5>
                     <p className="m-b-0 font-14">Ecografia Transvaginal y pélvica trans abdominal.</p>

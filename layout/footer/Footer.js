@@ -21,8 +21,8 @@ const Footer = () => {
           <Col lg="3" md="6" className="m-b-30">
             <h5 className="m-b-20">Email</h5>
             <p>
-              <Link href="#">
-                <a className="link">drjuliorojasortega@gmail.com</a>
+              <Link href="mailto:drjuliorojasortega@gmail.com">
+                <a target="_blank" className="link">drjuliorojasortega@gmail.com</a>
               </Link>
               <br />
             </p>
@@ -31,7 +31,7 @@ const Footer = () => {
             <h5 className="m-b-20">Social</h5>
             <div className="round-social light">
               <Link href="https://www.facebook.com/ginecologojuliorojas">
-                <a className="link">
+                <a target="_blank" className="link">
                   <i className="fa fa-facebook"></i>
                 </a>
               </Link>
@@ -40,8 +40,8 @@ const Footer = () => {
                   <i className="fa fa-youtube-play"></i>
                 </a>
               </Link> */}
-              <Link href="https://www.instagram.com/drjulioarojas/">
-                <a className="link">
+              <Link href="https://www.instagram.com/ginecologopuertomontt/">
+                <a target="_blank" className="link">
                   <i className="fa fa-instagram"></i>
                 </a>
               </Link>

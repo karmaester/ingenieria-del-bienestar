@@ -25,126 +25,116 @@ const OtherServices = () => {
           </Row>
           <Row className="m-t-40">
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img6}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img6}
+                  alt="wrappixel kit"
+                />
                 <CardBody>
                   <h5 className="font-medium m-b-0">Síndrome de ovario poliquístico</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img7}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho ">
+                <Image
+                  className="card-img-top"
+                  src={img7}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Manejo médico de la endometriosis</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img8}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img8}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Miomas uterinos</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img9}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img9}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Pesquisa de enfermedades de transmisión sexual</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img15}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img15}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Trastornos del ciclo menstrual</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img13}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img13}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Asesoría anticonceptiva de acuerdo a necesidades especiales</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img16}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img16}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Telemedicina</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img17}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img17}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Toma de pap</h5>
                 </CardBody>
               </Card>
             </Col>
             <Col md="4">
-              <Card className="card-shadow">
-                <a href="#" className="img-ho">
-                  <Image
-                    className="card-img-top"
-                    src={img18}
-                    alt="wrappixel kit"
-                  />
-                </a>
+              <Card className="card-shadow img-ho">
+                <Image
+                  className="card-img-top"
+                  src={img18}
+                  alt="wrappixel kit"
+                />
+
                 <CardBody>
                   <h5 className="font-medium m-b-0">Atención Kinesiológica del embarazo</h5>
                   <p className="m-b-0 font-14">Trabajamos en conjunto con el equipo Kinesiológico del Centro de especialidades Médicas Baquedano en el manejo preventivo y curativo de afecciones musculoesqueléticas asociadas al embarazo (pubalgia, dolor lumbar, dolor pélvico).</p>
