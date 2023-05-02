@@ -1,8 +1,6 @@
 import "../styles/scss/style.scss";
 import Layout from "../layout/Layout";
 import DocumentMeta from 'react-document-meta';
-import Banner2 from "../banner/Banner2";
-
 
 function MyApp({ Component, pageProps }) {
 
